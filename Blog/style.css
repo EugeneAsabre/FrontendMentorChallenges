@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
+*{
+    font-family: "figtree", serif;
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+}
+
+.hero {
+    height: 100vh;
+    background-color:hsl(47, 88%, 63%) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color:hsl(0, 0%, 100%) ;
+    border-radius: 30px;
+    border: .5px black solid;
+    box-shadow: 5px 5px;
+}
+
+.picture {
+    align-self: center;
+    padding-top: 15px;
+}
+
+img {
+    border-radius: 20px;
+}
+
+.learn {
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 7px;
+    width: 74px;
+    position: relative;
+    left: 15px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+#learn{
+    position: relative;
+    bottom: 8px;
+    left: 8px;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+#grey {
+    color: hsl(0, 0%, 42%);
+    bottom: 20px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row ;
+    position: relative;
+    left: 15px;
+}
+
+h3 {
+    position: relative;
+    left: 15px;
+    color: hsl(0, 0%, 7%);
+    font-weight: 800;
+}
+
+p {
+    position: relative;
+    left: 15px;
+    color: hsl(0, 0%, 7%);
+    font-weight: 500;
+}
+
+h5{
+    position: relative;
+    bottom: 15px;
+    left: 10px;
+    color: hsl(0, 0%, 7%);
+    font-weight: 800;
+}

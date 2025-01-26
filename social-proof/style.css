@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0px;
+    border: 0px;
+    font-family: "Outfit", serif;
+    font-style: normal;
+    font-size: 15px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('./assets/bg-pattern-top-mobile.svg');
+}
+
+.main
+{
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+
+.top-row {
+    display: flex;
+    flex-direction: row; 
+}
+
+.reviews {
+    display: flex;
+    width: 270px;
+    background-color: hsl(300, 24%, 96%);
+    height: 35px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.reviews img {
+    width: 13px;
+    height: 13px;
+    position: relative;
+    top: 9px;
+    left: 5px;
+}
+
+.reviews p {
+    position: relative;
+    top: 7px;
+    left: 10px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 500;
+}
+
+
+h1 {
+    font-size: 35px;
+    position: relative;
+    top: 40px;
+    color: hsl(300, 43%, 22%);
+}
+
+.words p {
+    position: relative;
+    top: 60px;
+    color: hsl(303, 10%, 53%);
+    font-weight: 400;
+}
+
+#first {
+    position: relative;
+    top: 50px;
+    left: 190px;
+}
+
+#second {
+    position: relative;
+    top: 95px;
+}
+
+#third {
+    position: relative;
+    top: 140px;
+    right: 200px;
+}
+
+.bottom-row {   
+    display: flex;
+    position: relative;
+    top: 150px;
+}
+
+.card {
+    background-color: hsl(300, 43%, 22%);
+    padding: 30px 30px 10px 30px;
+    border-radius: 15px;
+    margin: 0px 10px;
+    color: hsl(0, 0%, 100%);
+}
+
+.coloured {
+    color: hsl(333, 80%, 67%);
+}
+
+#last {
+    text-align: start;
+    position: relative;
+    bottom: 20px;
+}
+
+.avatar img {
+    border-radius: 20px;
+}
+
+.coloured, .name {
+    position: relative;
+    left: 50px;
+    bottom: 43px;
+}
+
+#card2 {
+    position: relative;
+    top: 10px;
+}
+
+#card3 {
+    position: relative;
+    top: 20px;
+}

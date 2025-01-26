@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Red Hat Display", serif;
+    font-style: normal;
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: image-set("./assets/pattern-background-desktop.svg");
+}
+
+img {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+}
+
+.main{
+    background-color: white;
+    border-radius: 25px;
+}
+
+.header {
+    text-align: center;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    color: hsl(223, 47%, 23%);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 20px;
+    background-color:hsla(224, 23%, 55%, 0.068);
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.mov {
+    position: relative;
+    top: 20px;
+    right: 70px;
+}
+
+.bold {
+    position: relative;
+    font-weight: 700;
+    left: 9px;
+    color: hsl(223, 47%, 23%);
+}
+
+.underline {
+    position: relative;
+    top: 10px;
+    color: hsl(245, 75%, 52%);
+}
+
+.button {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+#button1{
+    box-shadow: 0px 2px 10px hsl(224, 23%, 55%);
+}
+
+#button2 {
+    color: hsl(224, 23%, 55%);
+    background-color: white;
+    margin-bottom: 20px;
+}
